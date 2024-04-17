@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese&family=Pacifico&display=swap');
+body
+{
+	background-color: antiquewhite;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+nav
+{
+	font-family: 'Pacifico', cursive;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+#home
+{
+	margin-left: 1225px;
+}
+#about
+{
+	margin-left: 30px;
+}
+.container
+{
+	min-height: 75vh;
+	background-color: black;
+	color: white;
+	font-family:'Noto Sans Javanese', sans-serif;
+	display: flex;
+	margin-top: 20px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+	width: 1000px;
+	border-radius: 12px;
+}
+.logo img
+{
+	 width: 44px;
+}
+#image
+{
+	border-radius: 12px;
+	margin-top: 15px;
+	margin-left: 150px;
+	width: 500px;
+	height:500px ;
+}
+.bottom
+{
+	background-color: black;
+	margin-top: 0px;
+	height: 125px;
+	color: white;
+    cursor: pointer;
+}
+#progress
+{
+	margin-top: 20px;
+	margin-left: 350px;
+	width: 800px;
+	cursor: pointer;
+}
+.icons
+{
+	margin-top: 10px;
+	margin-left: 700px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem
+{
+	height: 50px;
+	border-radius: 34px;
+	background-color: white;
+    display: flex;
+    width: 310px;
+    margin-left: 20px;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-top: 12px;
+}
+.songitem img
+{
+	width: 34px;
+	height: 34px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.time
+{
+   margin-right: 12px;
+}
+.songinfo
+{
+	margin-top: 0px;
+	margin-left: 200px;
+	align-items: center;
+	display: flex;
+}
+.songinfo img
+{
+	opacity: 0;
+	transition: opacity 0.4s ease-in;
+}
+#heading
+{
+	margin-left: 15px;
+}
